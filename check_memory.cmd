@@ -3,9 +3,9 @@ rem *****************************************************************
 rem * Checks memory of a process and kills if using to much memory
 rem *
 rem * Need to set:
-rem *   find_app to app name e.g. regedit
-rem * 
-rem *   mem_threshold for max memory before restart in bytes
+rem *   find_app : app name e.g. regedit
+rem *   mem_threshold : max memory before restart in bytes
+rem *   app : path and application e.g  "c:\windows\regedit.exe"
 rem * 
 rem *****************************************************************
 @SETLOCAL enableextensions enabledelayedexpansion
